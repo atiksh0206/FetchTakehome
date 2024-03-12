@@ -48,7 +48,6 @@ android {
 
 dependencies {
     implementation libs.androidx.recyclerview
-    implementation libs.androidx.cardview
     implementation libs.retrofit
     implementation libs.converter.gson
     implementation libs.androidx.core.ktx
