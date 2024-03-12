@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
             }
 
             override fun onFailure(call: Call<List<DataModel>>, t: Throwable) {
-                print("failed")
+                println("failed")
             }
         })
 
